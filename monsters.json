@@ -1,0 +1,22 @@
+[
+  {
+    "health": "HEALTH",
+    "fatigue": "NO",
+    "nourishment": "NOTHUNGRY"
+  },
+  {
+    "health": "HEALTH",
+    "fatigue": "YES",
+    "nourishment": "STRAVING"
+  },
+  {
+    "health": "DEAD",
+    "fatigue": "NO",
+    "nourishment": "HUNGRY"
+  },
+  {
+    "health": "NOTHEALTHY",
+    "fatigue": "SLEEPING",
+    "nourishment": "HUNGRY"
+  }
+]

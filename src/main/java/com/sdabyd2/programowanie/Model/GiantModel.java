@@ -1,10 +1,12 @@
 package com.sdabyd2.programowanie.Model;
 
-public class GiantModel { //klasa modelu opisuje nadaje jakies cechy
+public class GiantModel {
 
     private Health health;
     private Fatigue fatigue;
     private Nourishment nourishment;
+
+    public GiantModel(){}
 
     public GiantModel(Health health,
                       Fatigue fatigue,
@@ -40,7 +42,7 @@ public class GiantModel { //klasa modelu opisuje nadaje jakies cechy
 
     @Override
     public String toString() {
-        return "GiantModel" +
+        return " GiantModel " +
                 " health = " + health +
                 " fatigue = " + fatigue +
                 " nourishment = " + nourishment;
